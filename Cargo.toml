@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Jason Qin"]
 description = "A background service (sparx) for managing the system after kernel initialisation"
+license-file = "LICENSE"
 
 [dependencies]
 neutronapi = { version = "0.1.0", git = "https://github.com/hyperswine/neutronapi.git" }
+log = "0.4.17"
+simple-logging = "2.0.2"
+chrono = "0.4.19"
