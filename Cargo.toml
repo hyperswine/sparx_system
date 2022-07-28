@@ -1,0 +1,9 @@
+[package]
+name = "sparx_system"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jason Qin"]
+description = "A background service (sparx) for managing the system after kernel initialisation"
+
+[dependencies]
+neutronapi = { version = "0.1.0", git = "https://github.com/hyperswine/neutronapi.git" }
